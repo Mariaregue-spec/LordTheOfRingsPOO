@@ -1,8 +1,7 @@
 package org.example;
 
-A
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World!"  );
+        Character[] characters = new Character[15];
     }
 }
