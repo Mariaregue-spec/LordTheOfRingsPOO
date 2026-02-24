@@ -51,5 +51,16 @@ public class Main {
                 "Mago pardo, amigo de los animales", "radagast.png",
                 "Bastón de madera", "Pardo", 80);
 
+        characters[12] = new Orc("Azog", 60, "Mordor", "Malo",
+                "Señor de los Orcos", "azog.png",
+                "Ejército de Mordor", "Capitán", true);
+
+        characters[13] = new Orc("Bolg", 45, "Mordor", "Malo",
+                "Hijo de Azog", "bolg.png",
+                "Ejército de Mordor", "Soldado", true);
+
+        characters[14] = new Orc("Gorbag", 30, "Mordor", "Malo",
+                "Orco de Minas Morgul", "gorbag.png",
+                "Ejército de Mordor", "Soldado", true);
     }
 }
