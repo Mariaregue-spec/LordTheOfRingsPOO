@@ -17,38 +17,22 @@ public class Dwarf extends Character {
         this.beardLength = beardLength;
     }
 
-    public String getHouse() {
-        return house;
-    }
+    public String getHouse() { return house; }
+    public String getWeapon() { return weapon; }
+    public double getBeardLength() { return beardLength; }
 
-    public String getWeapon() {
-        return weapon;
-    }
-
-    public double getBeardLength() {
-        return beardLength;
-    }
-
-    public void setHouse(String house) {
-        this.house = house;
-    }
-
-    public void setWeapon(String weapon) {
-        this.weapon = weapon;
-    }
-
-    public void setBeardLength(double beardLength) {
-        this.beardLength = beardLength;
-    }
+    public void setHouse(String house) { this.house = house; }
+    public void setWeapon(String weapon) { this.weapon = weapon; }
+    public void setBeardLength(double beardLength) { this.beardLength = beardLength; }
 
     @Override
     public void displayDetails() {
-        System.out.println("Race: " + getRace() +
-                " | Name: " + getName() +
-                " | House: " + house +
-                " | Weapon: " + weapon +
-                " | Beard Length: " + beardLength +
-                " | Description: " + getDescription() +
-                " | Image: " + getImage());
+        System.out.println("Raza: " + getRace() +
+                " | Nombre: " + getName() +
+                " | Casa: " + house +
+                " | Arma: " + weapon +
+                " | Largo de barba: " + beardLength +
+                " | Descripción: " + getDescription() +
+                " | Imagen: " + getImage());
     }
 }

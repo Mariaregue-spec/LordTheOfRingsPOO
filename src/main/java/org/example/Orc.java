@@ -17,38 +17,22 @@ public class Orc extends Character {
         this.aggressive = aggressive;
     }
 
-    public String getArmy() {
-        return army;
-    }
+    public String getArmy() { return army; }
+    public String getRank() { return rank; }
+    public boolean isAggressive() { return aggressive; }
 
-    public String getRank() {
-        return rank;
-    }
-
-    public boolean isAggressive() {
-        return aggressive;
-    }
-
-    public void setArmy(String army) {
-        this.army = army;
-    }
-
-    public void setRank(String rank) {
-        this.rank = rank;
-    }
-
-    public void setAggressive(boolean aggressive) {
-        this.aggressive = aggressive;
-    }
+    public void setArmy(String army) { this.army = army; }
+    public void setRank(String rank) { this.rank = rank; }
+    public void setAggressive(boolean aggressive) { this.aggressive = aggressive; }
 
     @Override
     public void displayDetails() {
-        System.out.println("Race: " + getRace() +
-                " | Name: " + getName() +
-                " | Army: " + army +
-                " | Rank: " + rank +
-                " | Aggressive: " + aggressive +
-                " | Description: " + getDescription() +
-                " | Image: " + getImage());
+        System.out.println("Raza: " + getRace() +
+                " | Nombre: " + getName() +
+                " | Ejército: " + army +
+                " | Rango: " + rank +
+                " | Agresivo: " + aggressive +
+                " | Descripción: " + getDescription() +
+                " | Imagen: " + getImage());
     }
 }

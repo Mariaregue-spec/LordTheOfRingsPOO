@@ -17,38 +17,22 @@ public class Wizard extends Character {
         this.powerLevel = powerLevel;
     }
 
-    public String getStaffType() {
-        return staffType;
-    }
+    public String getStaffType() { return staffType; }
+    public String getRobeColor() { return robeColor; }
+    public int getPowerLevel() { return powerLevel; }
 
-    public String getRobeColor() {
-        return robeColor;
-    }
-
-    public int getPowerLevel() {
-        return powerLevel;
-    }
-
-    public void setStaffType(String staffType) {
-        this.staffType = staffType;
-    }
-
-    public void setRobeColor(String robeColor) {
-        this.robeColor = robeColor;
-    }
-
-    public void setPowerLevel(int powerLevel) {
-        this.powerLevel = powerLevel;
-    }
+    public void setStaffType(String staffType) { this.staffType = staffType; }
+    public void setRobeColor(String robeColor) { this.robeColor = robeColor; }
+    public void setPowerLevel(int powerLevel) { this.powerLevel = powerLevel; }
 
     @Override
     public void displayDetails() {
-        System.out.println("Race: " + getRace() +
-                " | Name: " + getName() +
-                " | Staff Type: " + staffType +
-                " | Robe Color: " + robeColor +
-                " | Power Level: " + powerLevel +
-                " | Description: " + getDescription() +
-                " | Image: " + getImage());
+        System.out.println("Raza: " + getRace() +
+                " | Nombre: " + getName() +
+                " | Tipo de bastón: " + staffType +
+                " | Color de túnica: " + robeColor +
+                " | Nivel de poder: " + powerLevel +
+                " | Descripción: " + getDescription() +
+                " | Imagen: " + getImage());
     }
 }

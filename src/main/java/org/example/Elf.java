@@ -17,38 +17,22 @@ public class Elf extends Character {
         this.realm = realm;
     }
 
-    public String getClan() {
-        return clan;
-    }
+    public String getClan() { return clan; }
+    public boolean isImmortal() { return immortal; }
+    public String getRealm() { return realm; }
 
-    public boolean isImmortal() {
-        return immortal;
-    }
-
-    public String getRealm() {
-        return realm;
-    }
-
-    public void setClan(String clan) {
-        this.clan = clan;
-    }
-
-    public void setImmortal(boolean immortal) {
-        this.immortal = immortal;
-    }
-
-    public void setRealm(String realm) {
-        this.realm = realm;
-    }
+    public void setClan(String clan) { this.clan = clan; }
+    public void setImmortal(boolean immortal) { this.immortal = immortal; }
+    public void setRealm(String realm) { this.realm = realm; }
 
     @Override
     public void displayDetails() {
-        System.out.println("Race: " + getRace() +
-                " | Name: " + getName() +
+        System.out.println("Raza: " + getRace() +
+                " | Nombre: " + getName() +
                 " | Clan: " + clan +
-                " | Realm: " + realm +
-                " | Immortal: " + immortal +
-                " | Description: " + getDescription() +
-                " | Image: " + getImage());
+                " | Reino: " + realm +
+                " | Inmortal: " + immortal +
+                " | Descripción: " + getDescription() +
+                " | Imagen: " + getImage());
     }
 }
