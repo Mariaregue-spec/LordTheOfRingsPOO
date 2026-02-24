@@ -62,5 +62,10 @@ public class Main {
         characters[14] = new Orc("Gorbag", 30, "Mordor", "Malo",
                 "Orco de Minas Morgul", "gorbag.png",
                 "Ejército de Mordor", "Soldado", true);
+
+        for (Character character : characters) {
+            character.displayDetails();
+        }
     }
+
 }
