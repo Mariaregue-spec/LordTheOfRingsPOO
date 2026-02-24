@@ -70,7 +70,60 @@ Todos los personajes son del universo de “El Señor de los Anillos”.
 > Contiene superclase, subclases y sus atributos principales.
 
 ---
+# 🧑‍🤝‍🧑 Personajes Creados (15 Total)
 
+## 🧑 Humanos
+- 👑 Aragorn  
+- 🛡️ Boromir  
+- 🐎 Éomer  
+
+## 🧝 Elfos
+- 🏹 Legolas  
+- 🌊 Elrond  
+- ✨ Galadriel  
+
+## 🪓 Enanos
+- 🪓 Gimli  
+- 👑 Thorin  
+- 🏔️ Balin  
+
+## 🧙 Magos
+- ⚪ Gandalf  
+- ⚫ Saruman  
+- 🌿 Radagast  
+
+## 🧌 Orcos
+- 🔥 Azog  
+- ⚔️ Bolg  
+- 🩸 Gorbag  
+
+---
+
+# 🧾 Atributos
+
+## 🔷 Superclase `Character`
+
+| Atributo     | Descripción        |
+|--------------|-------------------|
+| `name`       | Nombre            |
+| `age`        | Edad              |
+| `origin`     | Origen            |
+| `alignment`  | Bueno / Malo      |
+| `race`       | Raza              |
+| `description`| Descripción       |
+| `image`      | Imagen            |
+
+---
+
+## 🔷 Atributos por Raza
+
+| Raza | Atributos Extra |
+|------|----------------|
+| 🧑 Human  | `kingdom`, `title`, `isNoble` |
+| 🧝 Elf    | `clan`, `immortal`, `realm` |
+| 🪓 Dwarf  | `house`, `weapon`, `beardLength` |
+| 🧙 Wizard | `staffType`, `robeColor`, `powerLevel` |
+| 🧌 Orc    | `army`, `rank`, `aggressive` |
 ## 🖥 Ejecución
 
 1. Clona el repositorio:  
