@@ -14,7 +14,7 @@ public class Main {
         characters[2] = new Human("Eomer", 36, "Rohan", "Bueno",
                 "Mariscal de la Marca de los Jinetes", "eomer.png",
                 "Rohan", "Mariscal", true);
-        // 3 Elves
+
         characters[3] = new Elf("Legolas", 2931, "Bosque de Greenwood", "Bueno",
                 "Príncipe del Bosque y gran arquero", "legolas.png",
                 "Bosque", true, "Bosque de Greenwood");
@@ -26,5 +26,18 @@ public class Main {
         characters[5] = new Elf("Galadriel", 7000, "Lothlórien", "Bueno",
                 "Dama de Lothlórien", "galadriel.png",
                 "Elfos de Lothlórien", true, "Lothlórien");
+
+        characters[6] = new Dwarf("Gimli", 139, "Erebor", "Bueno",
+                "Guerrero en la Comunidad del Anillo", "gimli.png",
+                "Casa de Durin", "Hacha", 1.2);
+
+        characters[7] = new Dwarf("Thorin", 195, "Erebor", "Bueno",
+                "Rey bajo la Montaña", "thorin.png",
+                "Casa de Durin", "Espada", 2.0);
+
+        characters[8] = new Dwarf("Balin", 178, "Erebor", "Bueno",
+                "Explorador y consejero de Thorin", "balin.png",
+                "Casa de Durin", "Hacha", 1.5);
+
     }
 }
