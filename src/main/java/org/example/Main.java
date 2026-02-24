@@ -39,5 +39,17 @@ public class Main {
                 "Explorador y consejero de Thorin", "balin.png",
                 "Casa de Durin", "Hacha", 1.5);
 
+        characters[9] = new Wizard("Gandalf", 2019, "Valinor", "Bueno",
+                "Mago Gris, guía de la Comunidad", "gandalf.png",
+                "Bastón de madera", "Gris", 100);
+
+        characters[10] = new Wizard("Saruman", 2019, "Valinor", "Malo",
+                "Mago Blanco, traidor de Isengard", "saruman.png",
+                "Bastón de madera", "Blanco", 95);
+
+        characters[11] = new Wizard("Radagast", 2019, "Valinor", "Bueno",
+                "Mago pardo, amigo de los animales", "radagast.png",
+                "Bastón de madera", "Pardo", 80);
+
     }
 }
