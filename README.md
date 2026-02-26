@@ -63,7 +63,8 @@ Todos los personajes son del universo de “El Señor de los Anillos”.
 ---
 
 ## 🖼 Diagrama de clases (Draw.io)
-<img width="458" height="287" alt="Captura de pantalla 2026-02-24 112820" src="https://github.com/user-attachments/assets/1e2f7768-7200-4698-9a92-25ead42a498a" />
+<img width="781" height="441" alt="ElSeñorDeLosAnillos color drawio (2)" src="https://github.com/user-attachments/assets/c53a05dc-4af5-4954-92c2-00bf69df16a1" />
+
 
 
 
